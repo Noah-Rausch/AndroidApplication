@@ -1,0 +1,1 @@
+Android client for a photo sharing/ranking social media.  Connects to an application server hosted on AWS.  Utilizes Retrofit for rest calls, and Picasso for efficient image loading.  *** IN DEVELOPMENT ***
