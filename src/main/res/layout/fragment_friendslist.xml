@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.noahr.photoapp.Views.FollowListFrag">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/addFollowEditTextXml"
+            android:hint="Follow by username"
+            android:layout_margin="1dp"
+            android:layout_height="40dp" />
+
+        <Button
+            android:text="Follow By Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:gravity="center"
+            android:elevation="2dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:layout_margin="1dp" />
+
+        <TextView
+            android:text="Who I Follow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/friendsListViewXml" />
+
+    </LinearLayout>
+
+</FrameLayout>
